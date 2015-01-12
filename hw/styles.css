@@ -2,6 +2,14 @@ body {
 	background-color: green;
 }
 
+div.travels-pg {
+	background-image: url("./travel_pics/travel_background.jpg"); /*sets background image*/
+}
+
+div.family-pg {
+
+}
+
 div.starter {
 	font-family: 'Lobster', cursive; /*Calls a google font - referenced in header of index*/
 	outline-style: ridge; /*sets an outline box to style*/
@@ -28,11 +36,20 @@ div::first-letter{ /*selects the first letter in each div*/
 
 
 div.p1 {
-	border-bottom-style: dotted;	
+	border-bottom-style: dotted;
 }
 
 div.p2 {
+	margin-left: 30px; /*Sets left margin for div to 30px*/
+	font-weight: bold; /*bolds all font within the div*/
+}
 
+div.p3 {
+	margin-right: 100px; /*Sets right margin for div to 100px*/
+}
+
+div.p4 {
+	
 }
 
 @media (max-width: 500px) { /*If screen size goes below 500px do something:*/
@@ -40,4 +57,7 @@ div.p2 {
 		background-color: blue;
 	}
 }
+
+
+
 
