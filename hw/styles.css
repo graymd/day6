@@ -1,0 +1,43 @@
+body {
+	background-color: green;
+}
+
+div.starter {
+	font-family: 'Lobster', cursive; /*Calls a google font - referenced in header of index*/
+	outline-style: ridge; /*sets an outline box to style*/
+	outline-width: 25px; /*sets pixel width of outline box*/
+	outline-color: blue; /*sets color of outline box*/
+}
+
+div::first-letter{ /*selects the first letter in each div*/
+	color: red;
+}
+
+.stacey-pic {
+	height: 175;
+	width: 175;
+	border-radius: 15; /*causes edges to become rounded->*/
+}
+
+.cat-pic {
+	height: 150;
+	width: 150;
+	opacity: .4; /*causes the image to be transparent*/
+	transform: rotate(45deg); /*allows you to rotate image a specified number of degrees*/
+}
+
+
+div.p1 {
+	border-bottom-style: dotted;	
+}
+
+div.p2 {
+
+}
+
+@media (max-width: 500px) { /*If screen size goes below 500px do something:*/
+	body {
+		background-color: blue;
+	}
+}
+
